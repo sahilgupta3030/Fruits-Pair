@@ -104,6 +104,19 @@ span {
     background-color: var(--bg-card);
 }
 
+footer {
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 3px;
+    background-color: #403f33;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
 @media only screen and (max-width: 600px) {
     #card-section {
         display: grid;
@@ -113,7 +126,7 @@ span {
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 27px;
         margin-bottom: 35px;
     }
 
